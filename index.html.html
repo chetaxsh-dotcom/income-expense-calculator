@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Income Expense Calculator</title>
+  <link rel="icon" href="./favicon.ico">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+      <div class="container">
+
+        
+        <h1>Income Expense Calculator</h1>
+
+        <div class="summary">
+            <div>
+                <h3>Total Income</h3>
+                <p id="total-income">₹0</p>
+            </div>
+            <div>
+                <h3>Total Expense</h3>
+                <p id="total-expense">₹0</p>
+            </div>
+            <div>
+                <h3>Balance</h3>
+                <p id="balance">₹0</p>
+            </div>
+        </div>
+
+        
+
+        <div class="form">
+            <input type="text" id="description" placeholder="Description">
+            <input type="number" id="amount" placeholder="Amount">
+
+            <div class="type">
+                <label>
+                    <input type="radio" name="type" value="income" checked>
+                    Income
+                </label>
+                <label>
+                    <input type="radio" name="type" value="expense">
+                    Expense
+                </label>
+            </div>
+
+            <button id="add-btn">Add</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+
+        
+
+        <div class="filters">
+            <label>
+                <input type="radio" name="filter" value="all" checked>
+                All
+            </label>
+            <label>
+                <input type="radio" name="filter" value="income">
+                Income
+            </label>
+            <label>
+                <input type="radio" name="filter" value="expense">
+                Expense
+            </label>
+        </div>
+
+      
+        <ul id="list"></ul>
+
+    </div>
+    <link rel="stylesheet" href="style.css">
+
+    
+ <script src="script.js"></script>
+</body>
+</html>
