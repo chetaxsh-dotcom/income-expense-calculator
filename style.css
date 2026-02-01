@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    background:olive;
+    background:#ffffff;
     width: 100%;
     max-width: 500px;
     padding: 25px;
@@ -143,4 +143,5 @@ input[type="number"] {
   border-radius: 6px;
   border: 1px solid #ccc;
 }
+
 
